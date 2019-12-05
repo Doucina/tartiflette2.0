@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
         if (mediaPlayer == null) {
-            mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.eldalindale);
+            mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sapphire);
             mediaPlayer.setLooping(true);
             mediaPlayer.start();
         }
