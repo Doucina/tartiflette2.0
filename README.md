@@ -38,17 +38,20 @@ Features
 
 ***"Bottom navigation bar"***
 
-Fragments available
+*Fragments available*
+
 <img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/navigation%20bar.png" width="300">
                                                                                                     
                                                                                                     
-**Splash Screen**                 
+**Splash Screen**   
+
 <img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/splash.png" width="300">
 
 **Sunsigns List**
-<img src="https://github.com/Doucina/Tartiflette/blob/master/1.png" width="300">
-My first screen displays the list of astrological signs with the name of the sign as well as pretty little pictures :
 
+<img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/home.png" width="300">
+<img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/favo.png" width="300">
+My List displays the list of astrological signs with the name of the sign as well as pretty little pictures.
 Each item is clickable. So just click on a sign to be redirected to the detailed page
 
 --------------------------------------------------
