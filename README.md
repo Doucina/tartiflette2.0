@@ -52,18 +52,18 @@ Features
 <img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/home.png" width="300">
 <img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/favo.png" width="300">
 My List displays the list of astrological signs with the name of the sign as well as pretty little pictures.
-Each item is clickable. So just click on a sign to be redirected to the detailed page
+Each item is clickable. So just click on a sign to be redirected to the detailed page.
 
 --------------------------------------------------
 
-***"Activity n°2"***
+***"Item Detail"***
 
-My second activity displays the specific description of the selected item :
+This activity displays the specific description of the selected item :
 - A picture
 - Name of the sign
 - Starting date
 - Ending date
-<img src="https://github.com/Doucina/Tartiflette/blob/master/2.png" width="300">
+<img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/item.png" width="300">
 
 
 
