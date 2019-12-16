@@ -9,6 +9,7 @@ Prerequisite
 -------------
 - Installation of Android Studio
 - Previous research
+- Creation of a github account
 
 
 Respected instructions
@@ -17,6 +18,8 @@ Respected instructions
 - Display a list in a RecyclerView
 - Two screens: A first activity with the list and a second displaying the item detail
 - Using Picasso for pictures
+- Fragments
+- Bottom navigation bar
 
 
 Plus
@@ -24,7 +27,10 @@ Plus
 - Creation of a Rest API (https://github.com/Doucina/Sunsign_API)
 - Data storage with SharedPreferences
 - Gitflow
-- Music
+- Great Music
+- Splash screen when launching the application
+- Complete design of the splash screen on paint 3D
+- App Icon
 
 
 Features
