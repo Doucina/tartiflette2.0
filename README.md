@@ -2,7 +2,7 @@
 
 Presentation 
 -------------
-3rd year Android project released on GitHub to create an "horoscope" application, using to call a REST API, a recyclerview, and the MVC principle in order to display the list of astrological signs followed by the corresponding description in a simple and optimal way.
+4th year Android project released on GitHub to create an "horoscope" application, using to call a REST API, a recyclerview, and the MVC principle in order to display the list of astrological signs followed by the corresponding description in a simple and optimal way.
 
 
 Prerequisite
