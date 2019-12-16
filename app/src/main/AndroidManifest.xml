@@ -12,11 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity">  <!-- Pour changer l'ordre d'apparition -->
+        <activity android:name=".SplashScreenActivity">  <!-- Pour changer l'ordre d'apparition -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity">  <!-- Pour changer l'ordre d'apparition -->
         </activity>
 
         <activity android:name=".SecondActivity"

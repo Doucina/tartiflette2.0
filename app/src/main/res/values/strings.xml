@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">Tartiflette</string>
-    <string name="button_main">button_main</string>
-    <string name="Tartiflette" />
-    <string name="tartiflette" />
-    <string name="SecondActivity">SecondActivity</string>
-    <string name="text_header">Message Received</string>
-    <string name="editText_main">Enter Your Message Here</string>
+    <string name="Tartiflette"></string>
+    <string name="tartiflette">Astrological sunsigns</string>
+    <string name="SecondActivity">Sunsign </string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+
 </resources>

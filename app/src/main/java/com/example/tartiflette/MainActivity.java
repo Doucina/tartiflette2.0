@@ -8,12 +8,16 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 //import android.view.View;
 //import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -39,9 +43,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
+        bottomNav.setOnNavigationItemSelectedListener(navListener);
 
         if (mediaPlayer == null) {
-            mediaPlayer = MediaPlayer.create(getApplicationContext(),R.raw.eldalindale);
+            mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.sapphire);
             mediaPlayer.setLooping(true);
             mediaPlayer.start();
         }
@@ -55,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
 
         if (sharedPreferences.contains(horoscope_list) && sharedPreferences.contains(horoscope_list)) {
             String sunsigns = sharedPreferences.getString(horoscope_list, null);
-            List<Sunsign> list = gson.fromJson(sunsigns, new TypeToken<List<Sunsign>>(){}.getType());
+            List<Sunsign> list = gson.fromJson(sunsigns, new TypeToken<List<Sunsign>>() {
+            }.getType());
             showList(list);
         } else {
         }
@@ -86,6 +93,30 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+ private BottomNavigationView.OnNavigationItemSelectedListener navListener =
+            new BottomNavigationView.OnNavigationItemSelectedListener() {
+                @Override
+                public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                    Fragment selectedFragment = null;
+
+                    switch (item.getItemId()){
+                        case R.id.home:
+                            selectedFragment = new HomeFragment();
+                            break;
+                        case R.id.cake:
+                            selectedFragment = new FavoritesFragment();
+                            break;
+                        case R.id.favorites:
+                            selectedFragment = new CakeFragment();
+                            break;
+                    }
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                            selectedFragment).commit();
+
+                    return true;
+                }
+            };
 
     private void showList(final List<Sunsign> list) {//j'ai mis final
         recyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
