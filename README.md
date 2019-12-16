@@ -36,7 +36,14 @@ Plus
 Features
 -------------
 
-***"Activity n°1"***
+***"Bottom navigation bar"***
+
+Fragments available
+<img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/navigation%20bar.png width="300">
+                                                                                                    
+                                                                                                    
+                                                                                                    
+<img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/splash.png width="300">
 
 My first screen displays the list of astrological signs with the name of the sign as well as pretty little pictures :
 
