@@ -49,7 +49,7 @@ Features
 
 **Sunsigns List**
 
-<img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/home.png" width="300">        <img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/favo.png" width="300">
+<img src="https://github.com/Doucina/tartiflette2.0/blob/master/favo.png" width="300">        <img src="https://github.com/Doucina/tartiflette2.0/blob/octopoulpe/favo.png" width="300">
 
 My List displays the list of astrological signs with the name of the sign as well as pretty little pictures.
 Each item is clickable. So just click on a sign to be redirected to the detailed page.
